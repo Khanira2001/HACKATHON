@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+
+.spaceship {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+.bullet {
+    width: 5px;
+    height: 15px;
+    position: absolute;
+    background-color: #f39c12;
+    border-radius: 5px;
+}
+
+.coin {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: gold;
+    border-radius: 50%;
+}
